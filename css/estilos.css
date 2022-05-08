@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  color: white;
+  font-family: sans-serif;
+
+}
+
+#header{
+  margin: auto;
+  width: 100%;
+
+  text-align: center;
+  color: white;
+  height: 15%;
+  background-color: white !important;
+  display: table;
+}
+
+.header_logo {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 0 0 2px;
+}
+
+#header img {
+  margin: 0 5px 0 2px;
+  width: 200px;
+  height: 200px;
+}
+
+.texto {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 2em;
+}
+.his{
+  margin: 20px 20px;
+}
+.his img {
+  margin: 0 5px 0 2px;
+  width: 200px;
+  height: 200px;
+}
+form {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #36F70C;
+    font-family: arial, helvetica, sans-serif;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: #4CD8E4;
+}
+a {
+  text-decoration: none;
+}
+
+label, input,select {
+  width: 100%;
+  display: block;
+  font-size: 1.2em;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] 
+{
+  width: 140px;
+  margin: auto;
+  background: #F853AD;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.inicio {
+  padding: 10px; 
+  margin: 10px; 
+  border: 2px; 
+  float: right; width: 250px;
+  width: 70px;
+  height: 70px;
+}
+
+.buscar {
+  padding: 10px; 
+  margin: 10px; 
+  border: 2px; 
+  float: right; width: 250px;
+  width: 70px;
+  height: 70px;
+}
+
+button {
+  background-color: #0CF781;
+  cursor: pointer;
+  border: none;
+  margin: auto;
+  text-align: center;
+    text-decoration: none;
+}
